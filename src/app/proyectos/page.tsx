@@ -22,7 +22,7 @@ const ProyectosPage = () => {
     <PageTemplate
       eyebrow="Proyectos"
       title="Proyectos y ejercicios estudiantiles"
-      description="Una coleccion corta de ideas que pueden convertirse en nuevas rutas, componentes o ejercicios."
+      description="descrip 1"
       items={projects}
     />
   );
