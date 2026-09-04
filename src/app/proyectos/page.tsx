@@ -3,7 +3,8 @@ import { PageTemplate } from "@/components/templates";
 const projects = [
   {
     title: "Landing comercial",
-    description: "Pagina principal para mostrar una marca, producto o servicio.",
+    description:
+      "Pagina principal para mostrar una marca, producto o servicio.",
   },
   {
     title: "Portfolio personal",
@@ -11,7 +12,8 @@ const projects = [
   },
   {
     title: "Panel simple",
-    description: "Vista inicial para organizar informacion y acciones importantes.",
+    description:
+      "Vista inicial para organizar informacion y acciones importantes.",
   },
 ];
 
@@ -19,7 +21,7 @@ const ProyectosPage = () => {
   return (
     <PageTemplate
       eyebrow="Proyectos"
-      title="Ejemplos de paginas para seguir creciendo."
+      title="Proyectos y ejercicios estudiantiles"
       description="Una coleccion corta de ideas que pueden convertirse en nuevas rutas, componentes o ejercicios."
       items={projects}
     />
